@@ -52,9 +52,9 @@ export const Banner = () => {
                 Welcome to my Portofolio
              </span>
              <h1>
-                Hi I'm Natalia
+                Hi  I'm Natalia  
                  <span className="wrap">
-                    {text}
+                     {text}
                  </span>
              </h1>
              <p>Looooooooooooooooooor</p>
