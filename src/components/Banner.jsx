@@ -1,12 +1,12 @@
 import { Row,Container, Col } from "react-bootstrap"
-import { ArrowRightCircle } from "react-bootstrap-icons"
-import headerImage from "../assets/img/header-img.svg"
+// import { ArrowRightCircle } from "react-bootstrap-icons"
+ import headerImage from "../assets/img/images.jpeg"
 import { useState,useEffect } from "react"
 
 export const Banner = () => {
     const [loopNum,setLoopNum]=useState(0);
     const[isDeleting,setIsDeleting]=useState(false);
-    const  toRotate=["Front End Developer","Web"];
+    const  toRotate=["Front End Developer","Web Design","JavaScript Developer","Creative Problem Solver"];
     const [text,setText]=useState("");
     const [delta,setDelta]=useState(300-Math.random()*100)
     const period=2000;
@@ -52,15 +52,17 @@ export const Banner = () => {
                 Welcome to my Portofolio
              </span>
              <h1>
-                Hi  I'm Natalia  
+                Hi  I'm Natalia <br/> 
                  <span className="wrap">
                      {text}
                  </span>
              </h1>
-             <p>Looooooooooooooooooor</p>
-             <button onClick={()=>console.log('connect')}>
-                Let's connect <ArrowRightCircle size={25}/>
-             </button>
+             <p>who enjoys building clean, responsive, 
+                and user-friendly websites. I work with HTML, CSS, JavaScript,
+                 and React to bring designs to life and create smooth user 
+                 experiences. This portfolio highlights some of my recent work 
+                 and the skills I'm proud to bring to each project.</p>
+           
 
                
             </Col>
