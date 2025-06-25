@@ -8,7 +8,7 @@ import react2 from "../assets/img/react2.png";
 import java1 from "../assets/img/spel.png";
 import java2 from "../assets/img/butik.png";
 import node1 from "../assets/img/node.png";
-import node2 from "../assets/img/virus.png";
+import node2 from "../assets/img/Virus.png";
 
 
 import { Nav} from "react-bootstrap";
