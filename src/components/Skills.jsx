@@ -1,7 +1,7 @@
 import { Container, Row,Col } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import meter from "../assets/img/skills.jpg";
+import meter from "../assets/img/Skills.jpg";
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
