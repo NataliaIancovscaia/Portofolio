@@ -1,6 +1,4 @@
 import { Col } from "react-bootstrap"
-
-
 export const ProjectCard = ({title,description,imgUrl,link}) => {
   return (
     <Col  sm={10} md={6}>
@@ -20,7 +18,7 @@ export const ProjectCard = ({title,description,imgUrl,link}) => {
             </div>
 
         </div>
-        </a>
+      </a>
     </Col>
   )
 }

@@ -1,11 +1,10 @@
 import { Row,Container, Col } from "react-bootstrap"
-// import { ArrowRightCircle } from "react-bootstrap-icons"
- import headerImage from "../assets/img/images.jpeg"
+import headerImage from "../assets/img/images.jpeg"
 import { useState,useEffect } from "react"
 
 export const Banner = () => {
     const [loopNum,setLoopNum]=useState(0);
-    const[isDeleting,setIsDeleting]=useState(false);
+    const [isDeleting,setIsDeleting]=useState(false);
     const  toRotate=["Front End Developer","Web Design","JavaScript Developer","Creative Problem Solver"];
     const [text,setText]=useState("");
     const [delta,setDelta]=useState(300-Math.random()*100)
@@ -40,11 +39,10 @@ export const Banner = () => {
 
         }
 
-        
     }
 
-  return (
-<section className='banner' id='home'>
+return (
+ <section className='banner' id='home'>
     <Container>
         <Row className="align-items-center">
             <Col xs={12} md={6} xl={7}>
@@ -57,11 +55,12 @@ export const Banner = () => {
                      {text}
                  </span>
              </h1>
-             <p>who enjoys building clean, responsive, 
-                and user-friendly websites. I work with HTML, CSS, JavaScript,
+             <p> who enjoys building clean, responsive, 
+                 and user-friendly websites. I work with HTML, CSS, JavaScript,
                  and React to bring designs to life and create smooth user 
                  experiences. This portfolio highlights some of my recent work 
-                 and the skills I'm proud to bring to each project.</p>
+                 and the skills I'm proud to bring to each project.
+            </p>
            
 
                

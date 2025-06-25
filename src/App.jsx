@@ -7,8 +7,6 @@ import { Skills } from "./components/Skills"
 import { Projects } from "./components/Projects"
 import { Footer } from "./components/Footer"
   
-// import { LoadingScreen } from './components/NavBar'
-
 function App() {
  
 

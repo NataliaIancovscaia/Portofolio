@@ -1,6 +1,6 @@
 import { Col, Container, Row, Tab } from "react-bootstrap"
 import { ProjectCard } from "./ProjectCard";
-import  colorSharp2 from "../assets/img/color-sharp2.png";
+import colorSharp2 from "../assets/img/color-sharp2.png";
 import html1 from "../assets/img/news.png";
 import html2 from "../assets/img/spa.png";
 import react1 from "../assets/img/react1.png";
@@ -32,12 +32,12 @@ export const Projects = () => {
     const projectsjs=[
         {title:"JS",
          description:"Candy boutique. Together with 2 classmates,  created a simple online store where you can add products to the cart and then 'proceed to checkout' to place an order." ,
-         imgUrl:java1,
+         imgUrl:java2,
          link:"https://github.com/NataliaIancovscaia/Javascript-Onlineshop-Godisbutik",
         },
         {title:"JS",
          description:"Quiz game. Create a simple 'Quiz game' where you can to guess the name of a classmate." ,
-         imgUrl:java2,
+         imgUrl:java1,
          link:"https://github.com/NataliaIancovscaia/Javascript-Quiz-game--Who-is-this-",
         },
       
